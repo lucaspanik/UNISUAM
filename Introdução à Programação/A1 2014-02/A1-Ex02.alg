@@ -53,6 +53,7 @@ inicio
       
    FIMPARA
    
+   // Para fazer rodar esse programa, comente a linha 57 (abaixo) e a linha 28
    ESCREVAL("A) ", produto)
    ESCREVAL("B) ", multiplos7)
    ESCREVAL("C) ", somaImpares)

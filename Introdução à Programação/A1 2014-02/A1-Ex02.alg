@@ -45,9 +45,9 @@ inicio
          primeiro <- falso
 
          SE ((i % 33) = 0) ENTAO
-            divisivel <- ("é divisível por 33")
+            divisivel <- (numpcarac(i) + " é divisível por 33")
          SENAO
-            divisivel <- ("NÃO é divisível por 33")
+            divisivel <- (numpcarac(i) + " NÃO é divisível por 33")
          FIMSE
       FIMSE
       

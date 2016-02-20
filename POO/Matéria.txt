@@ -1,6 +1,43 @@
+====================================================================
+20/02/2016
+=====================================================================
 Disciplina: Programação Orientada a Objetos
 Professor: Marcelo Andrade Teixeira
 Avaliação: 3 Provas escritas (sem consulta)
 Máximo de Faltas: 20
 
+Funções Matemáticas:
+   sqrt(a), log10(a), sem(a), cos(a), tan(a), pow(a,b), random()
+Ex:
+   double wal,res;
+   val = 25.0;
+   res = Math.sqrt(val);
 
+Comando de Seleção if/else:
+   if (condicao)
+     comando
+   else
+     comando
+   --------------------------
+   if (condicao)
+      comando;
+   --------------------------  
+   if (condicao) {
+      comando1;
+      comando2;
+   } else {
+      comando3;
+      comando4;
+   }
+   --------------------------  
+Entrada de Dados:
+   next
+   nextLine
+   nextInt
+   nextFloat
+   nextDouble
+   nextBoolean
+Saída de Dados:
+   print
+   println
+   

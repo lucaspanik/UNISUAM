@@ -1,0 +1,6 @@
+Disciplina: Programação Orientada a Objetos
+Professor: Marcelo Andrade Teixeira
+Avaliação: 3 Provas escritas (sem consulta)
+Máximo de Faltas: 20
+
+

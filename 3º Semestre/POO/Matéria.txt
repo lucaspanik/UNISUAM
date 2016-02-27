@@ -1,6 +1,43 @@
 ====================================================================
+27/02/2016
+====================================================================
+
+a) if ( x > 1 && x < 10 ) (certo)
+b) if ( (x > 1) && (x < 10) ) (certo porém usar somente quando necessário)
+c) if ( x > 1 ) && () x < 10 ) (errado)
+
+
+Modularização em Java
+  Métodos:
+    - Principal: main
+    - Procedimento: void (antes do nome)
+    - Função: um tipo (int, float, double, char antes do nome da função)
+  
+  Formato Geral:
+    static void (tipo) nome (parâmetros) {
+      - declaração de variaveis extras (se necessário)
+      - comandos
+    }
+  
+  Parâmetros:
+    - sem parâmetros: ()
+    - 1: (tipo parâmetro)
+    - 2: (tipo1 parâmetro1, tipo1 parâmetro2)
+    - 3: (tipo1 parâmetro1, tipo2 parâmetro2, tipo3 parâmetro3)
+    - OBS.: Um função possui pelo menos um comando "return" valor;
+
+  Chamar Procedimento:
+    - nome(valor1)
+    - nome(valor1, valor 2,...)
+    
+  Chamar Função:
+    variavel = nome(valor1,valor2,...);
+
+
+
+====================================================================
 20/02/2016
-=====================================================================
+====================================================================
 Disciplina: Programação Orientada a Objetos
 Professor: Marcelo Andrade Teixeira
 Avaliação: 3 Provas escritas (sem consulta)

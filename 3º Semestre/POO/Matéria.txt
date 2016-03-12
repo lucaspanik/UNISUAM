@@ -1,4 +1,12 @@
 ====================================================================
+12/03/2016
+====================================================================
+  Métodos Construtores:
+    - Função com o mesmo nome da class e executa automaticamente quando se chama o "new Class()"
+  Herança e Polimorfismo:
+    - Uma class se extende uma classe pai, exemplo "Class Ferrari extends Car {}"
+
+====================================================================
 05/03/2016
 ====================================================================
 

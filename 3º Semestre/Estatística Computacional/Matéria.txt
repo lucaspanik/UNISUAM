@@ -1,0 +1,16 @@
+
+Corelação Positiva:
+  Renda
+  |       .
+  |     .
+  |   .
+  | .
+  |-----------> Idade
+  
+Corelação Negativa:
+  Renda
+  | .      
+  |    .   
+  |      .
+  |        .
+  |-----------> Idade

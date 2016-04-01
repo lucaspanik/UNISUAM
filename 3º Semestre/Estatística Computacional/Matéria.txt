@@ -1,3 +1,22 @@
+====================================================================
+01/04/2016
+====================================================================
+  Média de Tendência Central no Ambiente R:
+    notasmat <- c(1,2,3,4,5,6,7,8,9,10,10,10,9,8.8,8.8,6.7,6.7,4,4,4,4); // Atribuição
+    mediaturma <- mean(notasmat); //Média
+    medianaturma <- median(notasmat); // Mediana
+    tfreq <- table(notasmat); // Frequência de vezes que um número aparece no array
+    
+    notasmat[11] <- NA;       // Limpando Dados
+    notasmat[12] <- NA;       // Limpando Dados
+    notasmat[21] <- NA;       // Limpando Dados   
+    mean(notasmat);           // Return será NA pois existem NA no array
+    mean(notasmat, na.rm=T);  // Retira os valores NA do array para fazer as médias
+    is.na(notasmat);          // Valida cada elemento verificando se existe valor 'NA' ou nao, trazendo resultado como TRUE (se for NA) ou FALSE (se nao for NA)
+    
+    - Variância: média das diferenças ao quadrado entre observações e seuas médias 
+      varianciaturma <- sum((notasmat-mean(notasmat))^2)/(length(notasmat)-1);
+      varianciaturma <- var(notasmat);
 
 Corelação Positiva:
   Renda

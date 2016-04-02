@@ -1,4 +1,11 @@
 ====================================================================
+02/04/2016
+====================================================================
+*** Valores de variáveis float tem sempre que ser colocado o 'f' no final do valor, exemplo: 2.6f
+*** Variável de Class SEMPRRREEEEEEEE é "static"
+*** Variável do instância (objeto) NUNCAAAAAAA é "static"
+
+====================================================================
 12/03/2016
 ====================================================================
   Métodos Construtores:

@@ -1,3 +1,35 @@
+
+====================================================================
+08/04/2016
+====================================================================
+  sum(a)            // Soma dos elementos do vetor
+  length(a)         // Quantidade de elmementos de um vetor
+  sum(a)/length(a)  // Média do vetor
+  mean(a)           // Função de média do vetor
+  sqrt(a)           // Raiz Quadrada de cada elemento do vetor
+  
+  x[1]              // Retorna o valor da posição 1 do vetor
+  x[4]              // Retorna o valor da posição 4 do vetor
+  x[8]              // Retorna o valor da posição 8 do vetor
+  x[x==89]          // Retorna quantidade de vezes que o número 89 se encontra no vetor
+  x[c(1,2,3)]       // Retorna os valores das casas selecionadas no vetor interno
+  x[-c(2,3)]        // Retorna todos os outros elementos que não sejam do vetor interno
+  x[x==max(x)]      // Retorna o maior valor do vetor
+  x[x==min(x)]      // Retorna o menor valor do vetor
+  
+  a-b               // Subtrai cada elemento do vetor A com o elemento do vetor B da mesma casa
+  a*b               // Multiplica cada elemento do vetor A com o elemento do vetor B da mesma casa
+  a/b               // Divide cada elemento do vetor A com o elemento do vetor B da mesma casa
+  b/a               // Divide cada elemento do vetor B com o elemento do vetor A da mesma casa
+  a*a               // Multiplica cada elemento do vetor A com o elemento do vetor A da mesma casa
+  a^3               // Multiplica cada elemento do vetor A por 3
+  b^4               // Multiplica cada elemento do vetor B por 4
+  sum(a,a)          // Soma do vetor A com o vetor A
+  sum(a,b)          // Soma do vetor A com o vetor B
+
+
+
+
 ====================================================================
 01/04/2016
 ====================================================================

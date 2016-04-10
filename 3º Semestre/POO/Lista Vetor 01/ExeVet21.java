@@ -3,7 +3,7 @@ import java.util.Scanner;
 class ExeVet21 {
     public static void main(String args[]) {
         Scanner s = new Scanner(System.in);
-        double temp[] = new double[5];
+        double temp[] = new double[121];
         int numeroDeDias;
         double menorTemp, maiorTemp, tempMedia,somaTemp;
         

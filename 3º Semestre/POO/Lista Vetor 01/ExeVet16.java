@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Ex16 {
+public class ExeVet16 {
     public static void main (String args[]){
         double altura[] = new double[10];
         double media = 0;

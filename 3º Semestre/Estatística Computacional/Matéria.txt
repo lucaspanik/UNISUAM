@@ -1,13 +1,39 @@
 ====================================================================
 08/04/2016
 ====================================================================
-  log(base=2,x=8)   // Log
-  max(vet)-min(vet) // Amplitude
-  sum(a)            // Soma dos elementos do vetor
-  length(a)         // Quantidade de elmementos de um vetor
-  sum(a)/length(a)  // Média do vetor
-  mean(a)           // Função de média do vetor
-  sqrt(a)           // Raiz Quadrada de cada elemento do vetor
+Gráficos:
+  plot(Idade, Renda)       // Gerar gráfico de dispersão envolvendo os valores das idades (eixo x) e rendas (eixo y)
+  plot(Idade,Renda,,main="Gráfico de Dispersão",col="dark red",pch=16,type="b")
+  
+  hist(NotaA1)             // Gera um histograma
+  hist(NotaA1,ylab="",border="purple",col="blue",las =1, main="HISTOGRAMA DAS NOTAS A1",xlab="NOTAS")
+
+Desvio Padrão:  
+  sd(NotaA1)               // Calcula o desvio-padrão
+
+Sequências:
+  seq(from=5, to=20, by=2) // Faz a sequência de 5 ate 20 de 2 em 2
+  seq(1, 100, 1)           // Faz a sequência de 1 ate 100 de 1 em 1
+  seq(1,200,2)             // Faz a sequência de 1 a 200 de 2 em 2
+  rep(1:5,2)               // Faz os números de  1 a 5  serem repetidos 2 vezes
+
+Repetições:
+  rep(1,10)               // Faz o numero 1 ser repetido 10 vezes
+
+  amplitudenotas<-max(NotaA1)-min(NotaA1)   
+  table(x)                // Mostra os valores e as quantidades de vezes que o mesmo valor aparece no vetor
+  var(x)                  // Variância do Vetor
+  sd(x)/sqrt(length(x))   // Erro-padrão de Média - Mede a precisão da média
+  range(x)                // Mosta os valores extremos, o menor e o maior valor do vetor
+  sort(x)                 // Ordena o vetor em ordem crescente
+  sort(y,decreasing=TRUE) // Ordena em ordem decrescente.
+  log(base=2,x=8)         // Log
+  max(vet)-min(vet)       // Amplitude
+  sum(a)                  // Soma dos elementos do vetor
+  length(a)               // Quantidade de elmementos de um vetor
+  sum(a)/length(a)        // Média do vetor
+  mean(a)                 // Função de média do vetor
+  sqrt(a)                 // Raiz Quadrada de cada elemento do vetor
   
   x[1]              // Retorna o valor da posição 1 do vetor
   x[4]              // Retorna o valor da posição 4 do vetor

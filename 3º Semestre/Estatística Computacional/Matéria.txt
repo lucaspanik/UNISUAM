@@ -1,7 +1,8 @@
-
 ====================================================================
 08/04/2016
 ====================================================================
+  log(base=2,x=8)   // Log
+  max(vet)-min(vet) // Amplitude
   sum(a)            // Soma dos elementos do vetor
   length(a)         // Quantidade de elmementos de um vetor
   sum(a)/length(a)  // Média do vetor
@@ -14,8 +15,8 @@
   x[x==89]          // Retorna quantidade de vezes que o número 89 se encontra no vetor
   x[c(1,2,3)]       // Retorna os valores das casas selecionadas no vetor interno
   x[-c(2,3)]        // Retorna todos os outros elementos que não sejam do vetor interno
-  x[x==max(x)]      // Retorna o maior valor do vetor
-  x[x==min(x)]      // Retorna o menor valor do vetor
+  x[x==max(x)]      // Retorna a quantidade de vezes que o maior valor do vetor se encontra no vetor
+  x[x==min(x)]      // Retorna a quantidade de vezes que o menor valor do vetor se encontra no vetor
   
   a-b               // Subtrai cada elemento do vetor A com o elemento do vetor B da mesma casa
   a*b               // Multiplica cada elemento do vetor A com o elemento do vetor B da mesma casa
@@ -26,9 +27,6 @@
   b^4               // Multiplica cada elemento do vetor B por 4
   sum(a,a)          // Soma do vetor A com o vetor A
   sum(a,b)          // Soma do vetor A com o vetor B
-
-
-
 
 ====================================================================
 01/04/2016

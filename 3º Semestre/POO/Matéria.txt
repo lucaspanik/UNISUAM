@@ -1,4 +1,14 @@
 ====================================================================
+30/04/2016
+====================================================================
+  Pilha de Arranjo (Array)  
+  Pilha de Arranjo com Exception (Array)
+  
+  Fazer:
+    - ExerciciosPOO/listaexerc1_pilha.doc
+
+
+====================================================================
 02/04/2016
 ====================================================================
 *** Valores de variáveis float tem sempre que ser colocado o 'f' no final do valor, exemplo: 2.6f

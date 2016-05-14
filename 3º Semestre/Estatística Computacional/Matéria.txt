@@ -74,7 +74,7 @@ Repetições:
       varianciaturma <- sum((notasmat-mean(notasmat))^2)/(length(notasmat)-1);
       varianciaturma <- var(notasmat);
 
-Corelação Positiva:
+Correlação Positiva:
   Renda
   |       .
   |     .
@@ -82,7 +82,7 @@ Corelação Positiva:
   | .
   |-----------> Idade
   
-Corelação Negativa:
+Correlação Negativa:
   Renda
   | .      
   |    .   

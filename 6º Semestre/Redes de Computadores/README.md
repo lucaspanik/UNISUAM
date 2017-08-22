@@ -1,4 +1,4 @@
-###### Rio, 14/08/2017
+##### Rio, 14/08/2017
 
 Provas escritas:
 >- A1 - 09/10
@@ -22,10 +22,10 @@ Provas escritas:
 > Dados/mensagens da camada da **Aplicação** para a camada **Física** sofrem encapsulamento, já da **Física** para a **Aplicação** sofrem o desencapsulamento.
 
 
+***
 
-***
-***
-###### Rio, 21/08/2017
+
+##### Rio, 21/08/2017
 
 Aplicações em tempo real permitem perda de pacotes.
 
@@ -40,12 +40,12 @@ HTTP Persistente -> Abre e Fecha a conexão apenas uma única vez independente d
 RTT-> É o tempo que dura para o pacote trafegar do cliente ao servidor.
 
 **Problemas do HTTP (Não Persistente):**
-- Requer sempre 2 RTT por objeto
+- Requer sempre **2 RTT** por objeto
 - Overhead do SO para cada conexão TCP
-- Nevagadores geralmente abrem conexões TCP paralelas  para buscar objetos referenciados.
+- Nevegadores geralmente abrem conexões TCP paralelas  para buscar objetos referenciados.
  
 **HTTP Persistente:**
 - servidor deixa conexão aberta depois de enviar a resposta
 - mensagem HTTP seguintes entre cliente/servidor são enviadas pela conexão aberta
 - cliente envia requisições assim  que encontra o objeto referenciado
-- no mínimo um RTT para todos os objetos referenciados.
+- no mínimo um **RTT** para todos os objetos referenciados.

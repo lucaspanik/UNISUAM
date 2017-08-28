@@ -49,3 +49,51 @@ RTT-> É o tempo que dura para o pacote trafegar do cliente ao servidor.
 - mensagem HTTP seguintes entre cliente/servidor são enviadas pela conexão aberta
 - cliente envia requisições assim  que encontra o objeto referenciado
 - no mínimo um **RTT** para todos os objetos referenciados.
+
+
+
+***
+
+
+##### Rio, 28/08/2017
+
+
+FTP (21 e 20)
+> Os dados são transportados via "Plain Text" onde não há criptografia, o que acaba não sendo muito utilizado. A porta 21 é usada para navegação e controle entre as pastas, já a porta 20 é utilizada exclusivamente para transferência de arquivos entre o cliente/servidor.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -58,13 +58,20 @@ RTT-> É o tempo que dura para o pacote trafegar do cliente ao servidor.
 ##### Rio, 28/08/2017
 
 
-FTP (21 e 20)
+FTP (TCP) (21 e 20)
 > Os dados são transportados via "Plain Text" onde não há criptografia, o que acaba não sendo muito utilizado. A porta 21 é usada para navegação e controle entre as pastas, já a porta 20 é utilizada exclusivamente para transferência de arquivos entre o cliente/servidor.
 
 
+**Correio Eletrônico**
 
+SMTP (TCP) (25) 
+> Protocolo de envio e recebimento de e-mails. Utiliza a organização de Fila, primeiro e-mail que chegar será o primeiro a ser transferido. Nessa transferência ocore em 3 fases:
+    1) HandShaking (Saudação) onde é validado se ambos os servidores estão funcionando e apto a transferirem mensagens
+    2) Transferência dos arquivos
+    3) Fechamento da conexão
 
-
+DNS
+> Converte um nome em um IP, podendo dar nomes/apelidos a servidores que tem IP ou nomes canônicos difíceis de se lembrar por exemplo. Usado também para distribuição de carga em servidores Web.
 
 
 

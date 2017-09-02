@@ -119,10 +119,11 @@ O Termo foi tão usado comercialmente que perdeu o sentido, acaba sendo como sex
 - Saber fazer as perguntas certas
 
 **Pesquisar:**
-- Hadoop (Hive com Rui)
+- Hadoop (Hive com Rui) [Faz processamento no HD]
 - Cloudera
 - MapReduce
 - AWS EMR (Elastic MapReduce)
+- Apache Spark [Faz o processamento na memória]
 
 
 

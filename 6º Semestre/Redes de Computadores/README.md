@@ -57,6 +57,7 @@ RTT-> É o tempo que dura para o pacote trafegar do cliente ao servidor.
 
 ##### Rio, 28/08/2017
 
+### Camada de Aplicação
 
 FTP (TCP) (21 e 20)
 > Os dados são transportados via "Plain Text" onde não há criptografia, o que acaba não sendo muito utilizado. A porta 21 é usada para navegação e controle entre as pastas, já a porta 20 é utilizada exclusivamente para transferência de arquivos entre o cliente/servidor.
@@ -70,10 +71,24 @@ SMTP (TCP) (25)
     2) Transferência dos arquivos
     3) Fechamento da conexão
 
-DNS
+DNS (53)
 > Converte um nome em um IP, podendo dar nomes/apelidos a servidores que tem IP ou nomes canônicos difíceis de se lembrar por exemplo. Usado também para distribuição de carga em servidores Web.
 
 
+
+***
+
+
+##### Rio, 04/09/2017
+
+### Camada de Transporte
+A camada de transporte é responsável por preparar as informações da camada de aplicação para a camada de rede.
+
+TCP(20 Bytes) e UDP(8 Bytes) são os protocolos da camada de transporte.
+- **Estabelecimento de uma Sessão** faz uma verificação se o caminho de transporte esta funcionando e pronta para receber os dados.
+- **Entrega na Mesma Ordem** garante que os dados sejam entregues sequencialmente como foram enviados mesmo que recebidos aleatoriamente.
+- **Entrega Confiável** reenviando os pacotes perdidos.
+- **Controle de fluxo** gerencia a entrega de dados se há congestionamento no host. (como se fosse um guarda de trânsito mandando ir e vir)
 
 
 

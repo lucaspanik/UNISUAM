@@ -74,6 +74,7 @@ SMTP (TCP) (25)
 DNS (53)
 > Converte um nome em um IP, podendo dar nomes/apelidos a servidores que tem IP ou nomes canônicos difíceis de se lembrar por exemplo. Usado também para distribuição de carga em servidores Web.
 
+Telnet(23)
 
 
 ***
@@ -81,7 +82,7 @@ DNS (53)
 
 ##### Rio, 04/09/2017
 
-### Camada de Transporte
+### Camada de Transporte (TCP e UDP)
 A camada de transporte é responsável por preparar as informações da camada de aplicação para a camada de rede.
 
 TCP(20 Bytes) e UDP(8 Bytes) são os protocolos da camada de transporte.
@@ -91,15 +92,34 @@ TCP(20 Bytes) e UDP(8 Bytes) são os protocolos da camada de transporte.
 - **Controle de fluxo** gerencia a entrega de dados se há congestionamento no host. (como se fosse um guarda de trânsito mandando ir e vir)
 
 
+***
+
+
+##### Rio, 11/09/2017
+
+### Processos TCP
+Protocolo que estabelece conexão para envio e recebimento das informações. Dados que chegam em ordem erradas são organizados no servidor de destino. Os dados perdidos são reenviados.
+
+#### IPT
+> Diferença entre o UDP e TCP. Para que serve cada um. Porque um cabeçalho é maior que o outro.
+
+#### Handshake Triplo
+> Faz uma verificação entre origem e destino para verificar se esta online e pronta para estabelecer uma conexão. 
+
+**Abrindo e estabelecimento a conexão**
+> O PC de origem envia um pacote  SYN para destino e o destino se online retorna um pacote SYN e um pacote ACK, sendo ACK uma confirmação de recebimento do pacote SYN, por fim o origem envia um ACK para o destino para estabelecer uma conexão.
+
+**Fechando e encerrando a conexão**
+> O PC de origem envia um pacote FIN para destino e o destino retorna um pacote ACK, sendo ACK uma confirmação de recebimento do pacote FIN. O destino envia um FIN para o origem e por fim o origem envia um ACK para o destino como confirmação de recebimento do pacote FIN para encerrar uma conexão.
+
+
+**MTU - Max Trasnfer Unit (Ethernet)**
+> Controle de fluxo onde há um reconhecimento de Segmento TCP e Tamanho da Janela, caso haja perda de pacote, a janela é reduzida pro mínimo (1500).
 
 
 
-
-
-
-
-
-
+### Processos UDP
+Protocolo que não estabelece uma conexão para envio de dados, como o envio de SYN, ACK, FIN. Os Dados chegam fora de ordem e NÃO são organizados no servidor de origem. Os dados perdidos são efetivamente perdidos.
 
 
 

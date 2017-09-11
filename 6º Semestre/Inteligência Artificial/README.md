@@ -142,8 +142,32 @@ A técnica comeceu sendo:
 
 
 
+***
 
+##### Rio, 08/09/2017
 
+### Analytics em Tudo
+
+MeetUp
+> Plataforma de prover possibilidade de de agrupar pessoas que tem o mesmo interesse em um determinado assunto.
+
+Dados aberto
+> Dados aberto é um dado que pode ser livremente utilizado, reutilizado e redistribuído por qualquer um (Manual dos Dados Abertos: governo)
+
+Características de um dados aberto:
+- Disponibilidade de Acesso
+- Reuso e redistribuição
+- particição universal
+- Completos
+- Primários
+- Atuais
+- Acessíveis 
+- Compreensíveis por máquinas
+- Não proprietário
+- Livres de licenças
+
+**Estratégias:**
+Disponibilizar um conjunto de dados brutos, com máximo de detalhamento possível, permite que a sociedade use os dados de maneira mais dinâmica, por exemplo, convertendo em outros formatos ou mesmo integrando com outros recursos; sendo disponibilizados por API ou para baixar.
 
 
 

@@ -140,8 +140,6 @@ A técnica comeceu sendo:
 - Map Reduce era o software
 
 
-
-
 ***
 
 ##### Rio, 08/09/2017
@@ -171,6 +169,25 @@ Disponibilizar um conjunto de dados brutos, com máximo de detalhamento possíve
 
 
 
+***
+
+##### Rio, 15/09/2017
+
+### Processo de Stemming
+
+Contextualização: Minaração de Texto
+> É um algoritimo de mineração de texto, onde através com os dados de entrada, é sofrida uma extração de conhecimento ganhando segmentos contextualizados. 
+
+Contam como algorítimo: 
+- Segmentação
+- Categorização
+- Clustering
+
+Segmentos:
+Prefixo + Radical + Sufico
+- **Comput**ador 
+- **Comput**ação
+- **Comput**adorizado
 
 
 

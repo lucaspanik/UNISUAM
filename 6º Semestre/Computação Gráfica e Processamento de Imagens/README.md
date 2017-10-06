@@ -119,6 +119,33 @@ D':
 ```
 
 
+***
+
+##### Rio, 21/08/2017
+
+#### Animações em 2D
+```c
+void glutTimmerFunc(unsigned int MSECS, void (*func) (int value), int value)
+```
+
+#### Função Anima
+```c
+void Anima(int value)
+{
+    if ( (Tx + MaxX) > windowXmax || ((Tx + MinX)) < windowXmin) )
+        xStep = -xStep;
+    if ( (Ty + MaxY) > windowYmax || ((Ty + MinY)) < windowYmin) )
+        yStep = -yStep;
+    
+    Tx += xStep;    
+    Ty += yStep;
+    
+    glutPostRedisplay();
+    glutTimerFunc(150, Anima, 1);
+        
+}
+```
+
 
 
 

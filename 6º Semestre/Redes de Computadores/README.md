@@ -123,6 +123,53 @@ Protocolo que não estabelece uma conexão para envio de dados, como o envio de 
 
 
 
+***
+
+
+##### Rio, 18/09/2017
+
+### Camada de Rede
+> A camada de rede é sem conexão, ou seja, nenhuma conexão é estabelecida antes do envio dos pacotes de dados. (Ao contrário do TCP que tem conexão). O pacote (cabeçalho IP e Segmento) são sempre os mesmos independente do meio físico que o transporta (fio, cabo ethernet, coaxial, fibra ótica, wi-fi, etc)
+Os endereços de IP de origem e destino se mantem sempre os mesmos ao percorrer por toda a rede até chegar no destino.
+
+### Tipos de Endereço
+
+##### Endereço de Rede
+É sempre o primeiro endereço ip PAR disponível naquela sub rede. (Exemplo: 192.168.0.0)
+
+##### Endereço Broadcast
+É sempre o último ip IMPAR disponível de cada sub rede. (Exemplo: 192.168.0.127)
+
+##### Endereço de Host
+São os endereços IP entre o endereço de rede e o endereço de broadcast.
+(Exemplo: 192.168.0.1 - 192.168.0.1.126)
+
+
+
+
+Qual é o endereço de rede e boadcast do IP 192.168.0.157/30?
+Fórmula:
+Máscara em binário COM AND LÓGICO COM o ultimo octeto do IP
+(and LÓGICA (O QUE É 1 É 1 SE TIVER ZERO EH ZERO).
+```
+   11111100 (30 Decimal)
+   10011101 (157 Decimal)
+ --------------------------
+   10011100 (156 Decimal) (Rede)
+   
+   Broadcast: Rede + quantidade de IP - 1
+   Broadcast: 156 + 4 - 1
+   Broadcast: 159
+   Intervalo de ip: 157 à 158
+ ```
+
+
+
+
+
+
+
+
 
 
 

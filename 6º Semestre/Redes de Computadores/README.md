@@ -164,13 +164,63 @@ Máscara em binário COM AND LÓGICO COM o ultimo octeto do IP
  ```
 
 
+***
 
 
+##### Rio, 23/10/2017
+
+### Tecnologias 
+
+CIDR
+> Roteamento sem uso de classes- permite um melhor aproveitamento dos endereços disponíveis
+
+RFC 1918
+> Endereços privados - permite o uso de endereços não válidos na internet nas redes corporativas
+
+NAT
+> Tradução de endereços - permite que um endereço válido na internet apenas, toda uma rede de computadores usando endereços privados seja conectada, mas com várias restrições. ***Ou Seja converte um IP inválido (da rede interna) para um IP válido pra rede externa (internet)***.
+
+DHCP
+> Alocação dinâmica de endreços IP - permite que provedores reutilizem endereços internet para conexões não permanentes (ainda é usada como solução paliaiva, ajudando até agora, dando-nos tempo para desenvolver o ***IPv6*** mas também colaborando para a demora em sua adoção)
 
 
+IPv4
+> 32 bits
 
+IPv6
+> 128 bits
 
+### Endereços
+Uma mesma interface de rede tem város endereços, com funções diversas:
 
+Loopback
+> Válido para host
+
+Link Local
+> Válido para rede local, assinalado automaticamente com base no MAC Address.
+
+Global
+> Válido na internet
+
+### Mudanças
+o IPv6 não é uma atualização do IPv4, o 6 é um protocolo completamente novo. De ponto de vista dos equipamentos é um protocolo **diferente**. Para implantar o 6, serão necessárias mudanças de roteadores, switches, farewalls entre outras coisas como programas legados, sistemas operacionais antigos com as características antigas.
+
+##### Como fazer a implantação? IPv4 e IPv6 odem conviver?
+
+#### Pilha dupla (dual stack)
+> - Os equipamentos usam simultamente IPv4 e IPv6 
+> - Quanto à conectividade à internet, pode ser: Só IPv4, Só IPv6, ou ambos.
+
+### Túneis (conectando pilhas de IPv6 entre si)
+> - O IPv6 pode ser encapsulado dentro de conexão IPv4.
+> - Os pacotes IPv6 podem ser transmitidos dentro do pacote IPv4.
+> - IPv6-over-IPv4 / Tunnel Broker / 6to4 / ISATAP / Teredo.
+
+### Tradução de pacotes (redes IPv4 conversando com redes IPv6)
+> Reescrevendo os cabeçalhos dos pacotes IP
+> Reescrevendo os cabeçalhos dos pacotes TCP
+
+### Tradução de Aplicações
 
 
 

@@ -192,6 +192,17 @@ Prefixo + Radical + Sufico
 
 
 
+***
+
+##### Rio, 06/10/2017
+
+14/10/2017 - Novo prazo para entrega de trabalhos.
+20/10/2017 - Novo prazo para entrega do trabalho A1.
+
+
+
+
+
 
 
 

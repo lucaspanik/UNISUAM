@@ -122,7 +122,7 @@ int nextState(char letter){
 		}
 	}
 	// reading " " (white-space)
-	else if(letter == ' '){
+	else if(letter == 'e' || letter == 'E'){
 		switch(current_state){
 			case 2:
 				return 5;

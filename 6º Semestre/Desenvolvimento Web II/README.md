@@ -1,1 +1,8 @@
-Rio, 15/08/2017
+### Rio, 26/09/2017
+
+## JSP
+```jsp
+<%! %> // Declaração de Variáveis
+<%= %> // Expressões
+<% %>  // Scriptlet
+```

@@ -203,13 +203,103 @@ Prefixo + Radical + Sufico
 
 
 
+***
+
+##### Rio, 03/11/2017
+###### Primeira Aula do Professor Marcelo Teixeira
+
+##
+### Busca
+
+Todo **sistema inteligente** tem obrigatoriamente duas caracteristicas que são: **busca** e **representação do conhecimento**.
 
 
+Tem como algoritimos de busca não informada (cega que não usa IA):
+- Algorítmo em Profundidade
+- Algorítimo em Amplitude
+
+Busca Informada (ou chamada de busca Heurística):
+- Busca pela Melhor Escolha (mais conhecido (Busca Heurística))
+- Busca no Espaço de Estado
+ 
+
+### Representação do Conhecimento
+
+1) Métodos fracos de pela Solução de Problemas (Soluções para abraçar o mundo):
+ - Lógica de Predicados
+ - Redes Semânticas
+ - Frames
+ 
+2) Métodos Fortes para Solução de Problemas (Soluções voltada para situações específicas):
+- Sistemas Especialistas (Logica de funcionamento que é chamada de lógica clássica, onde uma dor de cabeça pode ser **com dor** ou **sem dor** de cabeça)
+- Sistemas Fuzzy (Já no sistema Fuzzy uma dor de cabeça ganha mais possibilidades onde que pode haver **nenhuma dor**, **pouca dor**, **muita dor**)
+- Redes Bayesianas (Sistema voltado a probalidade, onde ele oferece uma porcentagem de uma doença por exemplo)
 
 
+3) Sistemas Distribuídos
+- Redes Neurais Artificiais
+- Algoritmos Genéticos
 
 
+#### Aprendizagem (Mineração de Dados)
+Sistemas de computadores onde são extraídos informações úteis através de dados.
 
+Algorítimos de Aprendizagem:
+- Conexionista (Utilizado para redes neurais artificiais)
+- Evolucionária (Utilizado para algorítimos genéticos - Darwin com a teoria da evolução da espécie)
+- Simbólica (Utiliza Árvores de Decisão (ID3))
+
+
+#### Algoritmo de Busca de Estados
+Questão 2 do arquivo simuladoIA2013A1.doc da pasta virtual
+
+<table>
+    <tr>
+        <td><b>Examinado</b></td>
+        <td><b>Abertos</b><br>(Não examinados)</td>
+        <td><b>Fechado</b><br>(Já examinado)</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>[A]</td>
+        <td>[]</td>
+    </tr>
+    <tr>
+        <td>A</td>
+        <td>[B,C]</td>
+        <td>[A]</td>
+    </tr>
+    <tr>
+        <td>B</td>
+        <td>[F,E,C]</td>
+        <td>[B,A]</td>
+    </tr>
+    <tr>
+        <td>F</td>
+        <td>[K,E,C]</td>
+        <td>[F,B,A]</td>
+    </tr>
+    <tr>
+        <td>K</td>
+        <td>[E,C]</td>
+        <td>[K,F,B,A]</td>
+    </tr>
+    <tr>
+        <td>E</td>
+        <td>[C]</td>
+        <td>[E,K,F,B,A]</td>
+    </tr>
+    <tr>
+        <td>C</td>
+        <td>[D,G] (descarta filhos fechados ou em abertos no caso o E)</td>
+        <td>[C,E,K,F,B,A]</td>
+    </tr>
+    <tr>
+        <td>D</td>
+        <td>-</td>
+        <td>-</td>
+    </tr>
+</table>
 
 
 

@@ -251,8 +251,13 @@ Algorítimos de Aprendizagem:
 
 
 #### Algoritmo de Busca de Estados
+Arquivo EEBEE.ppt na pasta ensina como realizar a busca por algoritmo.
+
 Questão 2 do arquivo simuladoIA2013A1.doc da pasta virtual
 
+**Busca por profundidade**
+
+Sai pela esquerda, e entra pela esquerda. (QUESTÃO DA PROVA)
 <table>
     <tr>
         <td><b>Examinado</b></td>
@@ -291,26 +296,144 @@ Questão 2 do arquivo simuladoIA2013A1.doc da pasta virtual
     </tr>
     <tr>
         <td>C</td>
-        <td>[D,G] (descarta filhos fechados ou em abertos no caso o E)</td>
+        <td>[<b>E</b>,D,G] (descarta filhos fechados ou em abertos no caso o <b>E</b>)</td>
         <td>[C,E,K,F,B,A]</td>
     </tr>
     <tr>
         <td>D</td>
-        <td>-</td>
-        <td>-</td>
+        <td></td>
+        <td></td>
+    </tr>
+</table>
+
+##
+
+**Busca por amplitude (ou largura)**
+
+Sai pela esquerda e entra pela direita. (QUESTÃO DA PROVA)
+<table>
+    <tr>
+        <td><b>Examinado</b></td>
+        <td><b>Abertos</b><br>(Não examinados)</td>
+        <td><b>Fechado</b><br>(Já examinado)</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>[A]</td>
+        <td>[]</td>
+    </tr>
+    <tr>
+        <td>A</td>
+        <td>[B,C]</td>
+        <td>[A]</td>
+    </tr>
+    <tr>
+        <td>B</td>
+        <td>[C,F,E]</td>
+        <td>[B,A]</td>
+    </tr>
+    <tr>
+        <td>C</td>
+        <td>[F,E,D,G] (<b>E</b> não entra novamente pois já se econtra na lista)</td>
+        <td>[C,B,A]</td>
+    </tr>
+    <tr>
+        <td>F</td>
+        <td>[E,D,G,K]</td>
+        <td>[F,C,B,A]</td>
+    </tr>
+    <tr>
+        <td>E</td>
+        <td>[D,G,K]</td>
+        <td>[E,F,C,B,A]</td>
+    </tr>
+    <tr>
+        <td>D</td>
+        <td>[G,K]</td>
+        <td>[D,E,F,C,B,A]</td>
+    </tr>
+    <tr>
+        <td>G</td>
+        <td>[K,L,M]</td>
+        <td>[G,D,E,F,C,B,A]</td>
+    </tr>
+    <tr>
+        <td>K</td>
+        <td></td>
+        <td></td>
     </tr>
 </table>
 
 
 
+#### Algoritmo de Heurística
+Arquivo EEBEE.ppt na pasta ensina como realizar a busca por algoritmo.
+
+Essa técnica tende a criar uma fórmula onde a heurística chegue mais próximo a percepção humana.
+A coluna n será dada na prova junto com a coluna h(n), teremos que preencher a coluna g(n) (que é o nivel da árvore, onde a raiz eh o nível zero) e a coluna f(n) que é a soma de g(n) + h(n). ( f(n) = g(n) + h(n) )
 
 
 
+**Busca pela melhor escolha (Heurística)**
 
-
-
-
-
+Sai pela esquerda e entra pela direita. (QUESTÃO DA PROVA)
+<table>
+    <tr>
+        <td><b>Examinado</b></td>
+        <td><b>Abertos</b><br>(Não examinados)</td>
+        <td><b>Fechado</b><br>(Já examinado)</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>[A4] Onde 4 é o valor de f(n)</td>
+        <td>[]</td>
+    </tr>
+    <tr>
+        <td>A4</td>
+        <td>[B6,C6]</td>
+        <td>[A4]</td>
+    </tr>
+    <tr>
+        <td>B6</td>
+        <td>[F5,C6,E7]</td>
+        <td>[B6,A4]</td>
+    </tr>
+    <tr>
+        <td>F5</td>
+        <td>[C6,E7,K7]</td>
+        <td>[F5,B6,A4]</td>
+    </tr>
+    <tr>
+        <td>C6</td>
+        <td>[D4,E7,K7,G7]</td>
+        <td>[C6,F5,B6,A4]</td>
+    </tr>
+    <tr>
+        <td>D4</td>
+        <td>[E7,K7,G7]</td>
+        <td>[D4,C6,F5,B6,A4]</td>
+    </tr>
+    <tr>
+        <td>E7</td>
+        <td>[K7,G7]</td>
+        <td>[E7,D4,C6,F5,B6,A4]</td>
+    </tr>
+    <tr>
+        <td>K7</td>
+        <td>[G7]</td>
+        <td>[K7,E7,D4,C6,F5,B6,A4]</td>
+    </tr>
+    <tr>
+        <td>G7</td>
+        <td>[L7,M9]</td>
+        <td>[G7,K7,E7,D4,C6,F5,B6,A4]</td>
+    </tr>
+    <tr>
+        <td>L7</td>
+        <td></td>
+        <td></td>
+    </tr>
+</table>    
 
 
 

@@ -225,13 +225,43 @@ o IPv6 não é uma atualização do IPv4, o 6 é um protocolo completamente novo
 
 
 
+***
 
 
+##### Rio, 06/11/2017
 
 
+#### Roteamente estático
+Roteamente estático é onde o adminsitrador da rede define as rotas que devem ser seguidas.
+
+#### Roteamente Dinâmico
+Roteadores por sí só (sem interferência humana), definem qual melhor caminho para o tráfego de dados.
+
+#### RIP (Route Information Protocol) [Vetor de Distância]
+Neste algorítimo independente se houve mudança da estrutura da rede, sempre será enviado informações da tabela de roteamento da rede.
+
+#### Link state
+Link state envia a nova tabela somente quando há modificação da tabela ou um roteador foi alterado/trocado.
+
+### Classificação dos Protocolos
+Quandos estamos na mesma rede, usamos protocolos IGP(I de interna), e quando saímos da rede interna é usada o EGP(E de externa).
 
 
+#### Convergência de Rede (Atualização de todos os roteadores da rede)
+Haverá convergência quando todos os roteadores estiverem com as informações completas de roteamento. Protocolos RIP e IGRP são mais lentos já os protocolos GEP e IOSPF são mais rápidos.
 
+
+#### Contagem de Saltos
+O RIP escolhe o caminho mais curto com base na contagem de saltos.
+Já o OSPF escolhe o caminho mais curto com base na largura (velocidade) da banda.
+
+
+#### Tabela de Roteamento
+O comando ```show ip route``` é usado para mostrar a tabela de IP's do roteador. Quando o ***R*** for apresentado na primeira coluna da tabela de roteamento, significa que foi configurada por RIP. Quando ***C*** signfica que é diretamente conectado (Connect) e nao necessita de um protocolo para identificar a existência deste outro computador conectado. 
+
+A segunda coluna mostra a sequência de IP/máscaras em ordem crescente de todos os IP's da tabela de roteamento. Os valores que estão entre colchetes são considerados como [distância administrativa/métrica(quantidade de saltos do RIP)]. Ex.: [120/1] ou [120/2].
+
+Os cabos vermelhos com formato de raio são denominados de SERIAIS, e o cabo preto de formato reto são denominados de FastEthernet.
 
 
 

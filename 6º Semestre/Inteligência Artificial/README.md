@@ -206,7 +206,7 @@ Prefixo + Radical + Sufico
 ***
 
 ##### Rio, 03/11/2017
-###### Primeira Aula do Professor Marcelo Teixeira
+###### 1ª Aula do Professor Marcelo Teixeira
 
 ##
 ### Busca
@@ -439,7 +439,53 @@ Sai pela esquerda e entra pela direita. (QUESTÃO DA PROVA)
 
 
 
+***
 
+##### Rio, 10/11/2017
+###### 2ª Aula do Professor Marcelo Teixeira
+
+### Sistemas Especialistas 
+
+Programa de sistema especialista é um programa onde é baseado em conhecimento humano especialista. O programa tem foto de lhe perguntar e em cima das respostas do usário ele entrega uma posição especializada em cima das respostas do usuário.
+
+Na expressão "se condição então conclusão" o sistema progressivo  usa a a condição para chegar na conclusão, já em sistemas regressivos é utilizado a conclusão pra chegar na condição.
+
+
+#### Pilha de Regras de sistemas regressivos
+Arquivo simuladoIA2013A1.doc - Começando com regra vazia:
+
+<table>
+    <tr>
+        <td>
+            []<br>
+            [ se <b>prob2</b> ou <b>prob3</b> então resfriado ]<br>
+            <i>Ler as regras que tem conclusão de prob2 e colocar no topo:</i><br>
+            [ 
+                se <span style="color: #f00"><b>vômito</b></span> ou <span style="color: #f00"><b>tosse</b></span> então prob2, <br>
+                se <b>prob2</b> ou <b>prob3</b> então resfriado
+            ]<br><br>
+            <i>Como <b>vômito</b> e <b>tosse</b> foram respondidas pelo usuário como não, elas são consideradas falsas fazendo que prob2 seja falso. Retirando a expressão do lista.</i><br>
+            [ se <span style="color: #f00"><b>prob2</b></span> ou <b>prob3</b> então resfriado ]<br><br>
+            Ler agora as regras  que tem conclusão de prob3 e colocar no topo:</b><br>
+            [ 
+                se <b>coriza</b> ou <b>dor</b> então prob3, <br>
+                se <span style="color: #f00"><b>prob2</b></span> ou <b>prob3</b> então resfriado
+            ]<br><br>
+            Usuário perguntou o <b>porque</b> em coriza, o que gera a mensagem de explicação:<br><br>
+            Porque<br>
+            posso usar <b>coriza</b> para investigar <b>prob3</b> pela regra <b>se coriza e dor então prob3</b>, e posso usar <b>prob3</b> para investigar <b>resfriado</b> pela regra <b>se prob2 ou prob3 então resfriado</b>, e <b>resfriado</b> foi sua pergunta original.
+        </td>
+    </tr>
+</table>    
+
+
+Na pasta SistemasEspecialistasEmProlog fazer os exercícios 'Exercícios-SE-porque' e ver o 'se-regressivo-porque' pois foi utilizado em sala de aula, questão 6 do arquivo 'simuladoIA2013A1.doc'.
+
+
+
+### Aprendizado de Máquina: Simbólico
+##### Aprendizagem de Árvores de Decisão (programa ID3)
+A forma de ensinar/treinar a máquina, damos um conjunto de casos/exemplos para treinamento.
 
 
 

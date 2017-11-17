@@ -489,14 +489,65 @@ A forma de ensinar/treinar a máquina, damos um conjunto de casos/exemplos para 
 
 
 
+***
+
+##### Rio, 17/11/2017
+###### 3ª Aula do Professor Marcelo Teixeira
+
+### Redes Neurais
+
+#### Redes de Multi Camadas
+Arquivo RC.ppt. Pegar matéria.
+
+#### Treinamento do Perceptron 
+(QUESTÃO DA PROVA)<br>
+Arquivo **ExercicioPerceptron.ppt** serve como base e explicação.
+
+f(net) onde net é igual a soma das multiplicações de todos os **x** pelos **w**, exemplo de uma vetor de 3 posições (x1\*w1 + x2\*w2 + x3\*w3). Se f(net) for maior que zero o resultado é 1, se for menor que zero o resulturado é -1.
+
+Δw = C * (desejado - real) * x<br>
+C = Taxa de aprendizagem<br>
+x = é o x 
+
+Realizar todas as contas para cada linha da tabela, usando sempre o último **Wx** calculado.
+
+
+Fazer a questão 4 do arquivo **SimuladoIA2013A2.doc**.
+
+
+### Algorítimos Genéticos
+Questão 2 do arquivo **SimuladoIA2013A2.doc**.<br>
+Joga na f
+a) Aptidão:<br>
+f(x1) = [1][0][0][0][0][1] = [a][b][c][d][e][f] = 4<br>
+f(x2) = [0][1][0][0][1][1] = [a][b][c][d][e][f] = 3<br>
+f(x3) = [0][1][0][0][1][0] = [a][b][c][d][e][f] = 2<br>
+f(x4) = [1][1][0][0][1][0] = [a][b][c][d][e][f] = 1
+
+b) Soma todos os resultados da aptidão para usar abaixo, no caso a soma é (4+3+2+1) = 10.
+fr(x1) = 4/10 = 0.4<br>
+fr(x2) = 3/10 = 0.3<br>
+fr(x3) = 2/10 = 0.2<br>
+fr(x4) = 1/10 = 0.1
+
+c) c1 sempre será ZERO<br>
+se 0.0 <= aleatório < 0.4 então x1<br>
+se 0.4 <= aleatório < 0.7 então x2<br>
+se 0.7 <= aleatório < 0.9 então x3<br>
+se 0.9 <= aleatório < 1.0 então x4
+
+d) Pais:<br>
+Aleaório 0.98 => x4 [1][1][0][0][1][0]<br>
+Aleaório 0.26 => x1 [1][0][0][0][0][1]<br>
+
+Pega o 'crossover' e quebra no meio como dado na questão, pegando início do primeiro X e final do segundo X<br>
+Filhos:<br>
+x4' [1][1][0] [0][0][1]<br>
+x1' [1][0][0] [0][1][0]<br>
 
 
 
-
-
-
-
-
+### Programação Genética
 
 
 

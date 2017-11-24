@@ -547,7 +547,106 @@ x1' [1][0][0] [0][1][0]<br>
 
 
 
-### Programação Genética
+### Programação Genética (Linguagem Lisp)
+
+
+
+
+
+***
+
+##### Rio, 24/11/2017
+###### 4ª Aula do Professor Marcelo Teixeira
+
+Uma questão da prova será em Lisp com recursividade.
+```LISP
+(
+	DEFUN POSITIVO (NUM)(
+		COND
+			((> NUM 0) T)
+			(T NIL) 
+	)
+)
+```
+
+```LISP
+(
+	DEFUN fatorial (n) (
+		COND 
+			( (<= N 0 ) 1 )
+			( T ( * n (fatorial (- n 1)) ) )
+		
+	)
+)
+```
+
+```LISP
+(
+	DEFUN soma (a b) (
+		COND
+			((= a b) a)
+			((< a b) (+ a (soma (+ a 1) b)))
+			(T (soma b a))
+	)
+)
+```
+
+```LISP
+(
+	DEFUN logdois (x) (
+		COND
+			((<= x 1.0) 0)
+			((AND (< 1.0 x) (>= x 2)) 1)
+			(T (+ 1 (logdois (/ x 2))))
+	)
+)
+```
+
+```LISP
+(
+	DEFUN genma(n)(
+		COND
+			((< N 4) (- n))
+			((= N 4) (- (genma (- 4 n))))
+			(T (+ n (* 11 (genma (- N 2)))))
+	)
+)
+```
+
+#### Representação do Conhecimento
+- Métodos Fracos: Lógicas de Predicados, Redes Semânticas, Frames.
+- Métodos Fortes: Sistemas Especialistas, Redes Bayesianas, Sistemas Fuzzy.
+- Distribuídas: Redes Neurais Artificiais, Algoritmos Genéticos.
+
+#### Teorema de Bayes
+Probabilidade => p(a | B) = p(a ^ b) / p(b)
+
+
+***
+
+
+#### Revisão da Prova
+
+Arquivo 'SimuladoIA2013A1.doc' CAI as questões 1,2,3 e 6.
+<br>
+1ª Questão) Diretórios 'Apostilas em Prolog' no arquivo introdução, ver o 2º capítulo onde fala de Progenitor que irá cair na prova.  ver no Arquivo IA.ppt
+<br>
+2ª Quetão) Busca em profundidade ou Amplitude que se encontra no arquivo EEBEE.ppt
+<br>
+3ª Questão) Busca pela melhor escolha que se encontra no arquivo EEBEE.ppt
+<br>
+4ª Questão) Sistemas Especialistas: Parecida com a questão 6 do arquivo SimuladoIA2013A1.doc e na pasta SistemasEspecialistasEmProlog no arquivo Exercicios-SE-porque.
+<br>
+
+Arquivo 'SimuladoIA2013A2.doc' NÃO CAI a quesão 2,3,6.
+<br>
+5ª Questão) Questão número 2 do arquivo SimuladoIA2013A2.doc, Algoritmos genéticos de SAT FNC
+<br>
+6ª Questão) Questão 4 do arquivo SimuladoIA2013A2.doc se guiar pelo exemplo do arquivo ExercicioPerceptron.ppt
+<br>
+7ª Questão) Questão 5 do arquivo simuladoIA2013A2.doc cai.
+
+
 
 
 

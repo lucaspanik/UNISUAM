@@ -517,18 +517,18 @@ Fazer a questão 4 do arquivo **SimuladoIA2013A2.doc**.
 
 ### Algorítimos Genéticos
 Questão 2 do arquivo **SimuladoIA2013A2.doc**.<br>
-Joga na f
+Joga na f:<br>
 a) Aptidão:<br>
 f(x1) = [1][0][0][0][0][1] = [a][b][c][d][e][f] = 4<br>
 f(x2) = [0][1][0][0][1][1] = [a][b][c][d][e][f] = 3<br>
 f(x3) = [0][1][0][0][1][0] = [a][b][c][d][e][f] = 2<br>
-f(x4) = [1][1][0][0][1][0] = [a][b][c][d][e][f] = 1
+f(x4) = [1][1][0][0][1][0] = [a][b][c][d][e][f] = 1<br>
 
-b) Soma todos os resultados da aptidão para usar abaixo, no caso a soma é (4+3+2+1) = 10.
+b) Soma todos os resultados da aptidão para usar abaixo, no caso a soma é (4+3+2+1) = 10.<br>
 fr(x1) = 4/10 = 0.4<br>
 fr(x2) = 3/10 = 0.3<br>
 fr(x3) = 2/10 = 0.2<br>
-fr(x4) = 1/10 = 0.1
+fr(x4) = 1/10 = 0.1<br>
 
 c) c1 sempre será ZERO<br>
 se 0.0 <= aleatório < 0.4 então x1<br>

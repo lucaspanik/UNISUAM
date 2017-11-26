@@ -376,7 +376,7 @@ A coluna n será dada na prova junto com a coluna h(n), teremos que preencher a 
 
 **Busca pela melhor escolha (Heurística)**
 
-Sai pela esquerda e entra pela direita. (QUESTÃO DA PROVA)
+Sai pela esquerda e entra seguindo a ordem do menor valor. (QUESTÃO DA PROVA)
 <table>
     <tr>
         <td><b>Examinado</b></td>
@@ -446,7 +446,7 @@ Sai pela esquerda e entra pela direita. (QUESTÃO DA PROVA)
 
 ### Sistemas Especialistas 
 
-Programa de sistema especialista é um programa onde é baseado em conhecimento humano especialista. O programa tem foto de lhe perguntar e em cima das respostas do usário ele entrega uma posição especializada em cima das respostas do usuário.
+Programa de sistema especialista é um programa onde é baseado em conhecimento humano especialista. O programa tem foco de lhe perguntar e em cima das respostas do usário ele entrega uma posição especializada em cima das respostas do usuário.
 
 Na expressão "se condição então conclusão" o sistema progressivo  usa a a condição para chegar na conclusão, já em sistemas regressivos é utilizado a conclusão pra chegar na condição.
 

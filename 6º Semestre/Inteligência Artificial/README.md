@@ -376,7 +376,7 @@ A coluna n será dada na prova junto com a coluna h(n), teremos que preencher a 
 
 **Busca pela melhor escolha (Heurística)**
 
-Sai pela esquerda e entra seguindo a ordem do menor valor. (QUESTÃO DA PROVA)
+Sai pela esquerda e entra seguindo a ordem do menor valor, valores iguals entram a direita. (QUESTÃO DA PROVA)
 <table>
     <tr>
         <td><b>Examinado</b></td>

@@ -503,7 +503,7 @@ Arquivo RC.ppt. Pegar matéria.
 (QUESTÃO DA PROVA)<br>
 Arquivo **ExercicioPerceptron.ppt** serve como base e explicação.
 
-f(net) onde net é igual a soma das multiplicações de todos os **x** pelos **w**, exemplo de uma vetor de 3 posições (x1\*w1 + x2\*w2 + x3\*w3). Se f(net) for maior que zero o resultado é 1, se for menor que zero o resulturado é -1.
+f(net) onde net é igual a soma das multiplicações de todos os **x** pelos **w**, exemplo de um vetor de 3 posições (x1\*w1 + x2\*w2 + x3\*w3). Se f(net) for maior que zero o resultado é 1, se for menor que zero o resulturado é -1.
 
 Δw = C * (desejado - real) * x<br>
 C = Taxa de aprendizagem<br>

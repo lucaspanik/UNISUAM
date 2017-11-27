@@ -266,3 +266,35 @@ Os cabos vermelhos com formato de raio são denominados de SERIAIS, e o cabo pre
 
 
 
+***
+
+
+##### Rio, 27/11/2017
+
+**Acesso controlado**: Um token é passado de máquina a máquina na rede permitindo a máquina que esta com token possa transmitir na rede.
+
+**Controle de acesso ao meio compartilhado (disputa)**: Estações podem  transmitir a qualquer momento podendo causar colisões.
+
+**Simplex**: Só envia ou só recebe.
+
+**Half Duplex**: Envia e recebe mas não ao mesmo tempo, exemplo nextel.
+
+**Full Duplex**: Envia e recebe ao mesmo tempo.
+
+**Ambiente Desprotegido**: Wifi, 3G, pois além de ser mais fácil de capturar os dados, ainda podem sofrer interferência externas como a luz/chuva.
+
+**Ambiente protegido**: cabo, fibra ótica.
+
+**Não vai cair na prova**: Protocolos Ethernet para LANs.
+
+#### Camada Física
+A camada física é responsável por converter os bits 0 e 1 em uma representação de luz, pulsos ou em ondas. Que onde são transmitidas pelos cabos de Cobre, Fibra ou Sem fio (Wireless).
+
+### Matéria da Prova (A2):
+- IPV6
+- Roteamento
+- Camada de Enlace
+- Camada Física
+
+
+

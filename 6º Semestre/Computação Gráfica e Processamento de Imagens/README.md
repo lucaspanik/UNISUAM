@@ -190,7 +190,7 @@ Um modelo de iluminação em comp.gráfica define a natureza da luz que emana de
 ##### Luz Tipo Spot
 É semelahante à puntual, porém os raios de luz são emitidos na forma de um cone, apontando para determinada direção. Isso faz com que a intensidade a luz dimunua conforme o raio de luz se desvia dessa direção.
 
-##### Modelos de Reflexão
+### Modelos de Reflexão
 Um modelo de reflexão descreve a interação dos raios de luz com uma superfície e a natureza da fonte de luz incidente.
 
 ##### Luz Ambiente
@@ -210,16 +210,16 @@ A reflexão difusa (ou lambertiana) ocorre na superfície da maioria dos objetos
 No mundo real, a maioria das superfícies não é totalmente opaca, ou seja, possuem algum brilho e não se comportam como perfeitas difusoras de luz. A reflexão especular é a responsável pela geração do "Ponto de Brilho" dos objetos.
 
 
-##### Modelos de Tonalização
+### Modelos de Tonalização
 Modelos de tonalização (shading) são usados para determinar a cor de cada ponto que compôe a superfície de um objeto. O realismo de uma imagem depende diretamente do modelo de tonalização aplicado.
 
-##### Flat Shading
+#### Flat Shading
 É o modelo mais simples, no qual se determina um único valor de intensidade para cada face, é utilizado para colorir a face inteira. Como esta técnica não produz variações de tonalização ao longo da face, pode ocorrer um problema de descontinuidade de intensidade.
 
-##### Modelo de Gouraud
+#### Modelo de Gouraud
 Busca obter suavidade ma exibição de objetos com superfícies curvas quando representados por faces, eliminando parcialmente o problema da descontinuidade. As melhoras dos resultados obtidos devem-se à interpolação de intensidades ao longo de cada face.
 
-##### A luz em OpenGL
+### A luz em OpenGL
 É dividida em quatro componentes independentes que são combinadas:
 
 **Ambiente**: Resultado da luz refletida no ambiente; é a luz que vem de todas as direções.
@@ -232,7 +232,24 @@ Busca obter suavidade ma exibição de objetos com superfícies curvas quando re
     
 
 
+***
 
+##### Rio, 23/11/2017
+
+### Análise exploratória de dados
+
+**Pregnância**: organizar os elementos de forma lógica.
+
+**Proximidade**: elementos próximos tendem a ser agrupados. É bom a localização dos elementos de acordo com o objetivo da análise.
+
+#### Questão de PROVA
+**Similaridade**: elementos com caracterísicas semelhantes tendem a ser agrupados de acordo com forma, cor, orientação...
+
+#### Tipo de Visão
+
+**Pré-atentivo** é algo que se bate o olho e a diferença já é notada (não precisa de atenção).
+
+**Não pré-atentivo** é algo que necessita de atenção para notar a diferença.
 
 
 

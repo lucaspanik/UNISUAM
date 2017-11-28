@@ -146,6 +146,33 @@ void Anima(int value)
 }
 ```
 
+
+***
+
+##### Rio, 09/11/2017
+
+#### Objetos predefinidos do glut 
+
+-Void  **glutwirecube**(GLdouble size): Desenha o Wireframe de um cubo cujo o tamanho é passado como parâmetro
+
+-Void **glutwireteapot**(6 double size): Desenha um wireframe de um bule de chá, cujo o tamanho é passado como parâmetro.
+
+-Void **glutwirespwere**(GLdouble radius, GLint slices,Glint stacks):Desenha o wireframe de uma esfera representada por um conjunto de frases radius corresponde ao raio da esfera.
+Já os parâmetros slices e stacks representam  respectivamente, o n° de subdivisões em torno de Z e ao longo de Z.
+
+-Void **glutwirecone**(GLdouble radius, GLdouble height, glit slices, glit stacks): Desenha o wireframe de um cone onde o height representa a altura do cone.
+
+-Void **glutwiretorus**(GLdouble inneradius, GLdouble otherradius, glit nsides, glit rings): Desenha o wireframe de um torus onde innerradius indica o raio interno, otherradius o raio externo, rings o n° de seções do torus e nsides o n° de subdivisões.
+
+-Void **glutwireIcosaHedron**(void) : Desenha o wireframe de um icosaedra
+
+-Void **glutwireoctaHedron**(void) : Desenha o wireframe de um octaedro
+
+-Void **glutwiretetraHedron**(void) : Desenha o wireframe de um tetraedro.
+
+-Void **glutwiredodecaHedron**(double radius) : Desenha o wireframe de um dodecaedro cujo o raio é especificado por um parâmetro.
+
+
 ***
 
 ##### Rio, 16/11/2017

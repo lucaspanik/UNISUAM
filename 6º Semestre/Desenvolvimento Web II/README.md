@@ -6,3 +6,13 @@
 <%= %> // Expressões
 <% %>  // Scriptlet
 ```
+
+***
+
+### Rio, 28/11/2017
+
+### Materia da Prova
+- Session
+- Cookies
+- JSTL (Blade do Java, Diretivas do HTML)
+- Expression Language (<%! %>, <%= %>, <% %>)
